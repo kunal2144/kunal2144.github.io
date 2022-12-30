@@ -5,7 +5,7 @@ import SocialSection from './SocialSection'
 
 export default function App() {
   return (
-    <div>
+    <div id="card">
       <Header />
       <InfoSection />
       <SocialSection />

@@ -130,3 +130,7 @@
 #twitter-btn svg, #instagram-btn svg, #gitHub-btn svg {
   margin: -10px;
 }
+
+#card {
+  zoom: 2.3;
+}
