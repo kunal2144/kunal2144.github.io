@@ -116,10 +116,10 @@ const config = {
   externalProjects: [
     {
       title: 'Smart',
-      stack: 'NextJS, Tailwind, Prisma, MongoDB',
+      stack: 'NextJS, Tailwind, Prisma, MongoDB, Rest API',
       date: 'Sep 2023',
       description:
-        'Developed a website that offers various AI tools like conversation, code, image, video and music generation all in one place. Utilizing NextJS for server-side rendering and Prisma for database management.',
+        'Developed a website that offers various Generative AI tools like conversation, code, image, video and music generation all in one place. Utilizing NextJS for server-side rendering and Prisma for database management.',
       link: 'https://smart-ai-saas.vercel.app/',
       imageUrl: '/project-logos/Smart.png',
     },
