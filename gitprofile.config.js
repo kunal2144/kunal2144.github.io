@@ -33,17 +33,20 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'SQL',
+    'JavaScript',
+    'ExpressJS',
+    'ReactJS',
+    'React Native',
+    'NextJS',
+    'VueJS',
+    'NodeJS',
+    'Git',
     'C',
     'C++',
     'C#',
     'Java',
     'Python',
-    'SQL',
-    'JavaScript',
-    'ExpressJS',
-    'ReactJS',
-    'NodeJS',
-    'Git',
     'Rest API',
     'Photoshop',
     'Blender',
@@ -52,6 +55,13 @@ const config = {
     'Google Cloud Platform',
   ],
   experiences: [
+    {
+      company: 'Simplify3x',
+      position: 'Software Engineer Intern',
+      location: 'Bangalore, India',
+      from: 'Dec 2023',
+      to: 'Present',
+    },
     {
       company: 'Round Brush Studio',
       position: 'Game Programmer',
@@ -129,7 +139,7 @@ const config = {
       date: 'Jul 2021',
       description:
         'Designed and programmed a 2D endless arcade game using C# and Unity Engine. Achieved 100+ downloads, earned 30+ reviews, and maintained a 5-star rating on the Play Store.',
-      link: 'https://play.google.com/store/apps/details?id=com.BlueSprite.BirdRun',
+      link: 'https://kunal2144.itch.io/bird-run',
       imageUrl: '/project-logos/BirdRun.png',
     },
     {
