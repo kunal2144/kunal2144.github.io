@@ -1,6 +1,5 @@
 import { Fragment, useEffect, useState } from 'react';
 import { ga, skeleton } from '../../helpers/utils';
-import LazyImage from '../lazy-image';
 import PropTypes from 'prop-types';
 import { AiOutlineContainer } from 'react-icons/ai';
 import { getDevPost, getMediumPost } from '@arifszn/blog-js';
@@ -120,19 +119,6 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
         >
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col md:flex-row">
-              <div className="avatar mb-5 md:mb-0 opacity-90">
-                <div className="w-24 h-24 mask mask-squircle">
-                  <LazyImage
-                    src={article.thumbnail}
-                    alt={'thumbnail'}
-                    placeholder={skeleton({
-                      width: 'w-full',
-                      height: 'h-full',
-                      shape: '',
-                    })}
-                  />
-                </div>
-              </div>
               <div className="w-full">
                 <div className="flex items-start px-4">
                   <div className="text-center md:text-left w-full">
